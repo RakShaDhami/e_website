@@ -1,0 +1,142 @@
+
+*{
+    margin: 0;padding: 0; box-sizing: border-box;
+}
+.header{
+    background: #fff;
+    border: 1px solid rgb(5, 5, 5);
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    height: 40px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;    
+}
+ .header.active{
+    transition: 0.02s;
+    z-index: 9999;
+   
+} 
+/* .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #9ae637;
+  } */
+.section{
+    background-color: #082543;
+    
+    
+}
+/* .sticky + .section {
+    padding-top: 60px;
+  } */
+
+.logo{
+    width: 400px;
+}
+.logo img{
+    width: 200px;
+}
+.btn{
+    width: 100px; 
+    display: inline-block;
+    background-color: #7AA93C; 
+    color: white; padding: 10px; 
+    text-align: center; 
+    border-radius: 5px;
+}
+.flex{
+    display: flex;
+}
+.js{
+    justify-content: space-between;
+}
+.jc{
+    justify-content: center;
+}
+.ai{
+    align-items: center;
+}
+.end{
+    align-self: end;
+}
+.nav{
+    width: 100%; padding: 20px;
+}
+.menu ul li,a{
+    list-style: none; text-decoration: none; color: aliceblue;
+}
+ul{
+    display: flex; gap: 30px;
+}
+.button{
+    gap: 10px; padding: 10px;
+}
+.btn1{ 
+    display: inline-block;
+    background-color: #0F93AC; 
+    color: white; 
+    padding: 10px; 
+    text-align: center; 
+    border-radius: 5px; 
+    padding: 15px;
+}
+.banner{text-align: center;}
+.banner1{gap: 50px; padding: 40px;}
+.box{
+    width: 100px; 
+    text-align: center; 
+    color: #0F93AC;
+}
+.h2{
+    height: 60px; 
+    width: 60px; 
+    border-radius: 50%; 
+    margin: auto;
+    align-items: center;  background-color: #123558;font-size: 14px;
+}
+a.hov:hover{color: #007bff; font-size: 130%;}
+.box:hover{color: #9ae637;}
+
+.con{
+    width: 100%;
+    padding: 100px;
+    gap: 30px;
+    padding-top: 0;
+    padding-bottom: 10px;
+}
+.wrapper1{
+    width: 300px;
+    height: 600px;
+    background-color: #5d6d7d;
+    overflow: hidden;
+}
+/* css for the scroll image when hover */
+.wrapper1 img{
+    width: 100%;
+    transform: translateY(0px);
+    transition-duration: 7s;
+
+}
+.wrapper1:hover img{
+    transform: translateY(calc(600px - 100%)); /* use key frame */
+    transition-duration: 5s;
+}
+.btn2{
+    text-align: center;
+    padding: 20px;
+    color: white;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+.wrapper:hover .btn2 {
+      background-color: #0F93AC;
+      transform: translateY(-30px);
+      transition: 1s;
+}
